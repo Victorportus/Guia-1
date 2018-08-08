@@ -1,0 +1,96 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+25
+'Un triangulo cualquiera'
+4
+1
+33
+'Ingrese los lados del triangulo'
+4
+1
+8
+'Lado 1'
+5
+1
+2
+L1
+4
+1
+8
+'Lado 2'
+5
+1
+2
+L2
+4
+1
+8
+'Lado 3'
+5
+1
+2
+L3
+7
+1
+1
+4
+L1<0
+4
+1
+39
+'ERROR!! los datos deben ser positivos'
+13
+7
+1
+1
+4
+L2<0
+4
+1
+39
+'ERROR!! los datos deben ser positivos'
+13
+7
+1
+1
+4
+L3<0
+4
+1
+39
+'ERROR!! los datos deben ser positivos'
+13
+6
+3
+1
+S
+12
+(L1+L2+L3)/2
+1
+X
+22
+S*(S-L1)*(S-L2)*(S-L3)
+1
+A
+7
+SQRT(X)
+6
+1
+1
+R
+23
+(L1*L2*L3)/(4*3.1416*A)
+13
+13
+13
+4
+1
+95
+'Semiperimetro del triangulo: ',S,'  Area del triangulo: ',A,'  Circunradius del triangulo: ',R
+1

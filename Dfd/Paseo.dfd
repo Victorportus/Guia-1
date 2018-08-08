@@ -1,0 +1,137 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+5
+1
+45
+Eg,Ef,Silxbus,Costbus,Dias,Vapla,Vaha,Perxhab
+7
+1
+1
+4
+Eg<0
+4
+1
+38
+'Error! los datos deben ser positivos'
+13
+7
+1
+1
+5
+ Ef<0
+4
+1
+38
+'Error! los datos deben ser positivos'
+13
+7
+1
+1
+9
+Silxbus<0
+4
+1
+38
+'Error! los datos deben ser positivos'
+13
+7
+1
+1
+9
+Costbus<0
+4
+1
+38
+'Error! los datos deben ser positivos'
+13
+7
+1
+1
+6
+Dias<0
+4
+1
+38
+'Error! los datos deben ser positivos'
+13
+7
+1
+1
+7
+Vapla<0
+4
+1
+38
+'Error! los datos deben ser positivos'
+13
+7
+1
+1
+6
+Vaha<0
+4
+1
+38
+'Error! los datos deben ser positivos'
+13
+7
+1
+1
+9
+Perxhab<0
+4
+1
+38
+'Error! los datos deben ser positivos'
+13
+13
+13
+13
+13
+13
+13
+13
+13
+6
+3
+5
+BuReq
+21
+(Eg * 2 + Ef)/Silxbus
+6
+AlqBus
+15
+BuReq*2*Costbus
+7
+CostCom
+24
+(Eg * 5 + Ef * 3)* Vapla
+6
+3
+6
+Numhab
+18
+(Eg + Ef)/ Perxhab
+11
+CostHabxdia
+14
+ Numhab * Vaha
+14
+CostHabxpaseo 
+20
+Numhab * Vaha * Dias
+6
+1
+11
+CostoPaseo 
+31
+AlqBus + CostCom+ CostHabxpaseo
+4
+1
+266
+'Cantidad de buses: ',BuReq,'  Costo alquiler buses: ',AlqBus,'  Costo de comida: ',CostCom,'  Numero de habitaciones: ',Numhab,'  Costo de habitaciones por dia: ',CostHabxdia,'  Costo de habitaciones por paseo: ',CostHabxpaseo,'  Costo total del paseo: ',CostoPaseo
+1
